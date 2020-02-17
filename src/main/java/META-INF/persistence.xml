@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="DossiersMedicaux">
+	
+		<class>com.dossiersmedicaux.model.Consultation</class>
+		<class>com.dossiersmedicaux.model.DossierMedical</class>
+		<class>com.dossiersmedicaux.model.FicheConsultattion</class>
+		<class>com.dossiersmedicaux.model.FicheInfirmiere</class>
+		<class>com.dossiersmedicaux.model.FicheSoin</class>
+		<class>com.dossiersmedicaux.model.Hopital</class>
+		<class>com.dossiersmedicaux.model.Medecin</class>
+		<class>com.dossiersmedicaux.model.Patient</class>
+		<class>com.dossiersmedicaux.model.Personne</class>
+		<class>com.dossiersmedicaux.model.Prescription</class>
+		<class>com.dossiersmedicaux.model.RapportAnalyse</class>
+		<class>com.dossiersmedicaux.model.RapportOperation</class>
+		<class>com.dossiersmedicaux.model.Specialite</class>
+		
+	</persistence-unit>
+</persistence>
